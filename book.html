@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, 
+       initial-scale-1, shrink-to-fit=no">
+  <title>Book</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <div class="grid-container smallervh">
+      
+      <header>
+        <div class="flex-container">
+          <div style="flex-grow: 10"><img src="images/RadiantRings.svg" width="275" height="275" alt="radiant rings studios"></div>
+          </div>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="book.html">Book</a></li>
+          </ul>
+      </header>
+      
+      <div class="content-b">
+        <div class= "form">
+          <div class="form-header">
+            Piercing Appointment Form
+          </div>
+          <form action="/submit-form" method="post">
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="phone">Phone Number</label><br>
+            <input type="tel" id="phone" name="phone" required><br>
+
+            <label for="piercingType">Piercing Type</label><br>
+            <select id="piercingType" name="piercingType">
+                <option value="tragus">Tragus</option>
+                <option value="earlobe">Stacked Earlobe</option>
+                <option value="daith">Daith</option>
+                <option value="helix">Helix</option>
+            </select><br>
+
+            <label for="date">Preferred Date</label><br>
+            <input type="date" id="date" name="date" required><br>
+
+            <label for="time">Preferred Time</label><br>
+            <input type="time" id="time" name="time" required><br>
+
+            <label for="additionalInfo">Additional Information</label><br>
+            <textarea id="additionalInfo" name="additionalInfo" rows="4" cols="50"></textarea><br>
+
+            <button type="button"> Submit </button>
+          </form>
+        </div>
+      </div>
+  
+      <footer>
+        <div class="f1">Contact Us!</div>
+        <div class="f2">kylie@radiantrings.com</div>
+        <div class="f3">(984) 225 0173</div>
+      </footer>
+    </div>
+
+
+</body>
+
+</html>
